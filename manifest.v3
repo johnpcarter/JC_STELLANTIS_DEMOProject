@@ -9,18 +9,20 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="JcHelloWorldAPI">1.1</value>
+  </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">2</value>
+  <value name="build">3</value>
   <null name="description"/>
   <value name="created_date">23-07-2026 16:42:25 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-07-23T16:42:30.873388251Z</value>
+  <value name="lastUpdated">2026-07-24T09:31:35.333036536Z</value>
   <value name="wmProjectId">fl1114240d4bc54d04bf2e7be5a24ca4e5</value>
   <value name="creator">John Carter</value>
 </Values>
