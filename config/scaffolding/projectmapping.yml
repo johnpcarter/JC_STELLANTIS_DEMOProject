@@ -1,0 +1,7 @@
+version: "1.0"
+projectName: JC_STELLANTIS_DEMOProject
+runtimes:
+- runtimeAlias: JC_EDGE
+  assets:
+  - name: JC_DEMO
+    type: DAF
