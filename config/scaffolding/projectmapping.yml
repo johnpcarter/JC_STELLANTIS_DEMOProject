@@ -1,6 +1,13 @@
 version: "1.0"
 projectName: JC_STELLANTIS_DEMOProject
 runtimes:
+- runtimeAlias: EU_FRONT_OFFICE
+  assets:
+  - name: Untitled Workflow
+    type: workflow
+    uid: fl588535b9aa214b83b842c2fff001bdbc
+    stepId: a0
+    reference: jc.helloworld.pub:greet
 - runtimeAlias: JC_EDGE
   assets:
   - name: JC_DEMO
