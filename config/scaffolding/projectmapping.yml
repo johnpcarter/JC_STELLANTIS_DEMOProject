@@ -3,7 +3,7 @@ projectName: JC_STELLANTIS_DEMOProject
 runtimes:
 - runtimeAlias: EU_FRONT_OFFICE
   assets:
-  - name: Untitled Workflow
+  - name: My Workflow
     type: workflow
     uid: fl588535b9aa214b83b842c2fff001bdbc
     stepId: a0
