@@ -11,4 +11,6 @@ packages:
   gitServerName: johnpcarter
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
-  gitBranch: main
+  gitBranch: v1.0.0
+configurationVariables:
+  globalvariable.JcHelloWorldAPI.greeting.value: Hello
