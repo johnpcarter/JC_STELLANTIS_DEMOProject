@@ -1,16 +1,16 @@
-version: "1.0"
+configurationVariables:
+  globalvariable.JcHelloWorldAPI.greeting.value: Hello
 info:
   model: int-scaffold
 packages:
-- name: JC_STELLANTIS_DEMOProject
+- gitBranch: release/1.0.0
   gitServerName: johnpcarter
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
-  gitBranch: main
-- name: JcHelloWorldAPI
+  name: JC_STELLANTIS_DEMOProject
+- gitBranch: v1.0.0
   gitServerName: johnpcarter
   gitUrl: https://github.com/johnpcarter
   gitUsername: johnpcarter
-  gitBranch: v1.0.0
-configurationVariables:
-  globalvariable.JcHelloWorldAPI.greeting.value: Hello
+  name: JcHelloWorldAPI
+version: 1.0.0
